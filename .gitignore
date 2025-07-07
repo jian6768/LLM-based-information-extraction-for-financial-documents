@@ -7,3 +7,4 @@ unused/
 #Ignore all presentations in gitignore folder/ 
 datasets/co_presentations/*
 !datasets/co_presentations/.gitignore
+datasets/test
