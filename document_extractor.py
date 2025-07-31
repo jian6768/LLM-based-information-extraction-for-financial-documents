@@ -85,27 +85,6 @@ class FinancialDocumentProcessor():
         ])
 
 
-    # def ingest_data(self, file_names:list):
-
-    #     #lost files in folder
-    #     # file_names = os.listdir(os.path.join("datasets","co_presentations"))
-
-    #     #Iterate over list of all file names. 
-    #     for file_name in file_names:
-
-    #         if file_name.endswith(".pdf"):
-    #             print(f"Processing file: {file_name}")
-
-    #             self.ticker = file_name.split("_")[0]
-    #             self.FP = file_name.split("_")[-2]
-                
-    #             source = os.path.join("datasets","co_presentations", file_name)  # document per local path or URL
-    #             # print(source)
-            
-    #             converter = DocumentConverter()
-    #             self.result = converter.convert(source)
-
-
     def ingest_document(self, file_name: str):
         if file_name.endswith(".pdf"):
             print(f"Processing file: {file_name}")
