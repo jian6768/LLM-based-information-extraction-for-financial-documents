@@ -5,6 +5,7 @@
 unused/
 
 #Ignore all presentations in gitignore folder/ 
-datasets/co_presentations/*
+datasets/processed/markdown/*
+datasets/processed/tables/*
 !datasets/co_presentations/.gitignore
 datasets/raw
