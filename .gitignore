@@ -9,3 +9,7 @@ datasets/processed/markdown/*
 datasets/processed/tables/*
 !datasets/co_presentations/.gitignore
 datasets/raw
+
+data/processed/markdown/*
+data/processed/tables/*
+data/raw

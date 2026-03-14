@@ -1,0 +1,2 @@
+pip install langchain-text-splitters
+pip install langchain-core
